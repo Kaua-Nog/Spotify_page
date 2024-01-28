@@ -1,0 +1,234 @@
+body {
+  background-color: #000;
+  font-family: var(--font-dm-sans);
+}
+
+/* parte referente a barra de navegação */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 12px;
+  width: 300px;
+}
+
+.sidebar__navigation {
+  background-color: #121212;
+  border-radius: 8px;
+  padding: 16px 8px 0px 16px;
+}
+
+.logo {
+  display: flex;
+  padding: 16px 8px 0px 16px;
+}
+
+.sidebar__navigation .logo img {
+  width: 80px;
+}
+
+.sidebar nav ul {
+  margin-top: 20px;
+  padding: 0px 20px 10px 20px;
+}
+
+.sidebar span{
+    margin-right: 16px;
+}
+
+.sidebar ul li{
+    padding: 10px 0px;
+}
+.sidebar nav ul li a{
+    color: #b3b3b3;
+    font-weight: 600px;
+    font-size: 14px;
+    font-family: var(--font-dm-sans);
+}
+
+.sidebar__biblioteca {
+    margin-top: 8px;
+    background-color: #121212;
+    border-radius: 8px;
+    padding: 1px 8px 0px 16px;
+  }
+
+.sidebar .sidebar__biblioteca .fa-plus{
+    margin-left: 60px;
+}
+
+.sidebar .cookies{
+  margin: 25px 20px;
+}
+
+.sidebar .cookies a{
+  color: #b3b3b3;
+  font-family: var(--font-dm-sans);
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.sidebar .cookies a:hover{
+  text-decoration: underline;
+}
+/* parte referente a barra de navegação */
+
+/* parte referente à biblioteca */
+
+.library{
+  background-color: #121212;
+  border-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding: 4px 8px;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.library .library__contend{
+  display: flex;
+  justify-content: space-between;
+}
+
+.library .library__button{
+  display: flex;
+  margin-right: 10px;
+  color: #b3b3b3;
+  background-color: transparent;
+  border: 0px;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: var(--font-dm-sans);
+  text-align: center;
+  padding: 20px 10px;
+}
+
+.library .library__button .fa{
+  font-size: 20px;
+  font-weight: 300;
+  color: #b3b3b3;
+  margin-right: 10px;
+  padding-right: 8px;
+}
+
+.library .library__contend .fa-plus{
+  margin: 24px 10px;
+}
+
+.section-playlist{
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 20px;
+  background-color: #242424;
+  color: #b3b3b3;
+  font-weight: 600;
+  font-size: 14px;
+  margin: 8px 0px;
+  padding: 16px 20px;
+  border-radius: 10px;
+}
+
+.section-playlist .section-playlist__contend{
+  display: flex;
+  flex-direction: column;
+}
+
+.section-playlist__contend .text{
+  padding-bottom: 14px;
+  color: #fff;
+  font-family: var(--font-dm-sans);
+}
+
+.section-playlist__contend .tittle{
+  font-weight: bold;
+}
+
+.section-playlist__contend .subtittle{
+  font-weight: 500;
+  font-size: 12px;
+}
+
+.section-playlist__contend .section-playlist__button{
+  display: flex;
+  justify-content: center;
+  background-color: #fff;
+  color: #000;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: var(--font-dm-sans);
+  padding: 10px;
+  margin-top: 12px;
+  border: 0px;
+  width: 113px;
+}
+
+/* parte referente à biblioteca */
+
+/* parte referente às linguagens */
+
+.languages .languages__button{
+  align-items: center;
+  background-color: transparent;
+  border: 1px solid #878787;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  width: 190px;
+  margin: 8px;
+  padding: 8px;
+  border-radius: 20px;
+}
+
+/* parte referente às linguagens */
+
+/* Parte referente ao Footer */
+
+.disclaimer-premium {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(to right, #ae2896, #509bf5);
+  padding: 15px 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.disclaimer-premium .text{
+  flex-shrink: 0 ;
+}
+
+.disclaimer-premium .disclaimer-premium__tittle {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+
+.disclaimer-premium .disclaimer-premium__subtittle {
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500px;
+}
+
+.disclaimer-premium button {
+  background-color: #ffffff;
+  color: #000000;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 14px 30px;
+  border: 0px;
+  border-radius: 40px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+
+/* Parte referente ao Footer */

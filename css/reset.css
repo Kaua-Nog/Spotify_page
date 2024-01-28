@@ -1,0 +1,94 @@
+/* reset.css */
+
+/* Box sizing rules */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Remove default margin */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+dl,
+figure,
+blockquote,
+fieldset,
+legend {
+  margin: 0;
+}
+
+/* Remove list styles (bullet points and numbers) */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default padding */
+html {
+  padding: 0;
+}
+
+/* Remove default "border" for table */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Reset some styles for form elements */
+button,
+input,
+optgroup,
+select,
+textarea {
+  margin: 0;
+  font: inherit;
+  color: inherit;
+}
+
+/* Correct the cursor style of buttons */
+button {
+  cursor: pointer;
+}
+
+/* Reset inheritance to the font properties of the parent */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* Remove text-decoration for links */
+a {
+  text-decoration: none;
+}
+
+/* Reset color inheritance */
+pre,
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  font-size: 1em;
+}
+
+/* Make img elements responsive */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Responsive media */
+@media (max-width: 1000px) {
+  /* Add your responsive styles here */
+}
